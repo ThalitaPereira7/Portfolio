@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+   
+}
+
+body {
+    background: #F3F0EB;
+    
+    
+}
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+#logo {
+    padding-left: 40px;
+    
+}
+
+#categorias ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+
+}
+
+#categorias ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+#categorias{
+    width: 400px;
+    justify-content: space-around;
+}
+
+.sobre {
+    width: 500px;
+    
+}
+
+.sobre p {
+    margin-top: 20px;
+}
+
+.sobre button{
+    margin-top: 50px;
+    background: #BD2C52;
+    border-radius: 43px;
+    width: 500px;
+    height: 50px;
+    color: #F3F0EB;
+
+
+}
+
+.thalita {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.filmesFav {
+    margin-top: 100px;
+
+}
+
+.titulo h1 {
+    padding-left: 265px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 72px;
+    color: #000000;
+}
+
+
+
+#filmes {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.serie {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.serie p {
+    width: 700px;
+}
+
+.seriesFav {
+    margin-top: 40px;
+}
+
+
+#vinte img {
+    width: 550px;
+    
+}
